@@ -1,0 +1,18 @@
+﻿<ul class="sidebar-menu" data-widget="tree">
+    <li class="header">Content</li>
+    <!-- Optionally, you can add icons to the links -->
+    <li class="active">@Html.ActionLink("Products", "Index", "Products")<i class="fa fa-link"></i>Products</li>
+    <li class="active">@Html.ActionLink("Vendors", "Index", "VendorTransaction")><i class="fa fa-link"></i></li>
+    <li class="treeview">
+        <a class="active">
+            <i class="fa fa-link"></i> <span>Customers</span>
+            <span class="pull-right-container">
+                <i class="fa fa-angle-left pull-right"></i>
+            </span>
+        </a>
+        <ul class="treeview-menu">
+            <li><a href="#">Orders</a></li>
+            <li><a href="#">Appointments</a></li>
+        </ul>
+    </li>
+</ul>
